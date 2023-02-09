@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background: linear-gradient(to right , #2a0845,#6441a5);
+}
+  .form{
+    padding: 30px 40px;
+}
+
+
+ .form input::placeholder{
+    color: #2a0845;
+}
+
+.form #submit{
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.form #submit:hover{
+    background-color: #6441a5;
+}
+.form-inline label,.form-inline input{
+    display: inline-block;
+    width: auto;
+    padding-right: 15rem;
+    display: flex;
+}
+/* table th{
+    border: 2px solid black;
+    height: 50px;
+    margin-top: 15px;
+    background-color:grey;
+    padding: 20px 10px;
+
+}  */
+
+
+  
+@media only screen and (max-width : 500px){
+    .form{
+        width: 100%;
+    }
+    .form-group span{
+        font-size: xx-small;
+    }
+}
